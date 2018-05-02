@@ -51,6 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\ARTrackingController.cs" />
+     <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\FPSARCoreScript.cs" />
      <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\HelloARController.cs" />
      <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\PlaneAttachment.cs" />
      <Compile Include="Assets\GoogleARCore\HelloARExample\Scripts\PointcloudVisualizer.cs" />
@@ -165,6 +167,9 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity2017.3/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>C:/Program Files/Unity2017.3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity2017.3/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
